@@ -153,7 +153,79 @@ body{
     border-radius: 0.5rem;
 
 }
+.Hero .content .cta:hover {
+    background-color: purple; /* Warna ungu saat dihover */
+}
+
+
 /* About Section */
+.galeri {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.galeri {
+    padding: 8rem 7% 1.4rem;
+    
+}
+
+
+.galeri .row3 {
+    display: flex;
+}
+
+.galeri .row3 .galeri-img{
+    flex: 0.6 0.8 43rem;
+
+}
+
+.galeri .row3 .galeri-img img{
+    width: 100%;
+}
+
+.galeri .row3 .galeri-img img:hover {
+    transform: scale(1.018); /* Memperbesar gambar 1.3 kali saat dihover */
+}
+
+.galeri .row3 .content {
+    flex: 1 1 35rem;
+    padding: 0 5rem;
+}
+
+.galeri .row3 .content h3{
+    font-size: 2.4rem;
+    color:black;
+    margin-bottom: 1rem;
+}
+
+.galeri .row3 .content p{
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.galeri .content .cta {
+    margin-top: 1 rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    color: rgb(249, 247, 247);
+    background-color: rgb(18, 17, 18);
+    border-radius: 0.5rem;
+}
+
+.galeri .content .cta:hover {
+    background-color: purple; /* Warna ungu saat dihover */
+}
 .about {
     min-height: 100vh;
     display: flex;
@@ -182,6 +254,10 @@ body{
 
 .about .row .about-img img{
     width: 100%;
+}
+
+.about .row .about-img img:hover {
+    transform: scale(1.018); /* Memperbesar gambar 1.018 kali saat dihover */
 }
 
 .about .row .content {
@@ -213,6 +289,11 @@ body{
     background-color: rgb(18, 17, 18);
     border-radius: 0.5rem;
 }
+
+.about .content .cta:hover {
+    background-color: purple; /* Warna ungu saat dihover */
+}
+
 /* ff */
 .ff {
     min-height: 100vh;
@@ -243,6 +324,10 @@ body{
     width: 100%;
 }
 
+.ff .row1 .ff-img img:hover {
+    transform: scale(1.018); /* Memperbesar gambar 1.018 kali saat dihover */
+}
+
 .ff .row1 .content {
     flex: 1 1 35rem;
     padding: 0 5rem;
@@ -270,6 +355,10 @@ body{
     color: rgb(249, 247, 247);
     background-color: rgb(18, 17, 18);
     border-radius: 0.5rem;
+}
+
+.ff .content .cta:hover {
+    background-color: purple; /* Warna ungu saat dihover */
 }
 
 /* pubg */
@@ -302,6 +391,10 @@ body{
     width: 100%;
 }
 
+.pubg .row2 .pubg-img img:hover {
+    transform: scale(1.018); /* Memperbesar gambar 1.018 kali saat dihover */
+}
+
 .pubg .row2 .content {
     flex: 1 1 35rem;
     padding: 0 5rem;
@@ -328,7 +421,12 @@ body{
     font-size: 1.4rem;
     color: rgb(249, 247, 247);
     background-color: rgb(18, 17, 18);
-    border-radius: 0.5rem;}
+    border-radius: 0.5rem;
+}
+
+.pubg .content .cta:hover {
+    background-color: purple; /* Warna ungu saat dihover */
+}
 
 
 /*footer*/
@@ -414,6 +512,13 @@ footer .link a {
         transform: scaleX(0.2);
     }
     
+    .galeri .row3{
+        flex-wrap: wrap ;
+    }
+
+   .galeri .row3 .content {
+    padding: 0;
+   }
     .about .row{
         flex-wrap: wrap ;
     }
@@ -445,4 +550,3 @@ footer .link a {
         font-size: 55%;
     }
 }
-
